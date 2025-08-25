@@ -1,0 +1,78 @@
+/* public/css/auth.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #3b9fd1, #0c3273);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.auth-container form input[type="text"],
+.auth-container form input[type="email"],
+.auth-container form input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.auth-container form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0c3273;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container form button:hover {
+    background-color: #4a78c6;
+}
+
+.auth-container .link {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.auth-container .link a {
+    color: #84a6e0;
+    text-decoration: none;
+}
+
+.auth-container .link a:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    background: #f8d7da;
+    padding: 10px;
+    color: #721c24;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
